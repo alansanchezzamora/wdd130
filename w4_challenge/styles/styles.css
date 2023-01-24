@@ -1,0 +1,53 @@
+* {
+
+    background-color: pink;
+}
+
+img{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    margin: 20px auto;
+}
+.title{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    margin: 20px auto;
+}
+.title:hoover {
+    background-color: black;
+    color: black;
+}
+p{
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 0.8em;
+    color: white;
+}
+h5{
+    width: 30%;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+}
+ol{
+    width: 25%;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bold;
+}
+h2{
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+.footer{
+    width: 20%;
+    text-align: center;
+    color: black;
+    margin-top: 10px auto;
+}

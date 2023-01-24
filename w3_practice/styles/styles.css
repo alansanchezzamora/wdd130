@@ -1,9 +1,50 @@
-.main-para {
-    font-size: 1.5em;
-    line-height: 1.5em;
+
+
+/*as you resize the page the image always remains at 80% of the page*/
+
+/*
+* {
+    border: 2px solid blue;
 }
 
-#active { 
-    background-color: white;
-    color: red;
+p {
+    width: 100%;
+}
+
+
+/* 16px is our starting point. If we want our font size to be one and a half times as big (16 + 8 = 24px), we can use 1.5em. */ 
+
+a { 
+    font-size: 1.5em;
+}
+
+h1{
+    text-align: center;
+}
+nav, footer{
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+footer p { 
+    font-size: 20px;
+    margin: 20px auto;
+}
+a:hoover { 
+    background-color: yellow;
+    color: greenyellow;
 }
