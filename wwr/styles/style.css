@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Unkempt&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -15,6 +18,7 @@ nav a{
 .button-box{
     text-align: center;
 }
+
 main section{
     text-align: center;
 }
@@ -25,6 +29,10 @@ main section{
 
 body{
     background-color: #fcfbfb;
+    font-family: swap, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #22577a;
@@ -37,6 +45,10 @@ nav a:hover{
     background-color: #fcfbfb;
     color: #57cc99;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #fcfbfb;
@@ -47,22 +59,32 @@ nav a:hover{
 }
 .msg{
     background-color: #fcfbfb;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #22577a;
     color: #57cc99;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: #38a3a5;
+    font-family: Unkempt, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #38a3a5;
 }
 .msg h2{ 
     color: #22577a;
+    font-family: Unkempt, Helvetica, sans-serif;
 }
 .msg p{
     color: #22577a;
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: #57cc99;
@@ -83,3 +105,25 @@ footer p{
 footer p a:hover {
     text-decoration: underline;
 }    
+h2 {
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer.social img{
+    padding-top: 15px;
+}
+
+.river-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #000000
+}
+main section img{
+    box-sizing: border-box;
+}
