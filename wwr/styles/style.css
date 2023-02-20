@@ -10,6 +10,10 @@ nav a{
     text-decoration: none;
     padding: 35px;
 }
+nav a:hover {
+    background-color: #005FB8;
+    color: #FFD60A;
+}
 #hero-msg h1, #hero-msg h4{
     text-align: center;
 }
