@@ -163,7 +163,8 @@ display: block;
 .description{
   margin: auto;
   text-align: center;
-  border: 5px solid black;
+  border: 2px solid black;
+  padding: 70px 0;
 }
 
 .logo{
@@ -281,4 +282,12 @@ footer .social img {
 
 .image-header{
   float: right
+}
+
+.child-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.child-grid-image{
+  width: 100%;
 }
