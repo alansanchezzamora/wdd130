@@ -1,4 +1,5 @@
 /* Style the header with a grey background and some padding */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather:wght@300&display=swap');
 .header {
     overflow: hidden;
     background-color: #f1f1f1;
@@ -162,9 +163,9 @@ display: block;
 }
 .description{
   margin: auto;
-  text-align: center;
-  border: 2px solid black;
+  text-align: left;
   padding: 70px 0;
+  font-size: 1.2em;
 }
 
 .logo{
@@ -175,8 +176,8 @@ display: block;
 }
 .logo-img{
   width: 250px;
-
   object-fit: cover;
+  margin-top: auto;
 }
 /*
 .logo--1{
@@ -308,4 +309,12 @@ footer .social img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   text-align: center;
+}
+body{
+  font-family: Merriweather, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.emphasize{
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
 }
