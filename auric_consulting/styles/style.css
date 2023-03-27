@@ -109,47 +109,15 @@
     color: aqua;
 }
 
-.footer-bottom{
-    background: #000;
-    width: 100vw;
-    padding: 20px;
-padding-bottom: 40px;
-    text-align: center;
-}
-.footer-bottom p{
-float: left;
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-}
-.footer-bottom p a{
-  color:#44bae8;
-  font-size: 16px;
-  text-decoration: none;
-}
-.footer-bottom span{
-    text-transform: uppercase;
-    opacity: .4;
-    font-weight: 200;
-}
-.footer-menu{
-  float: right;
-
-}
-.footer-menu ul{
+footer{
+  color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
-.footer-menu ul li{
-padding-right: 10px;
-display: block;
-}
-.footer-menu ul li a{
-  color: #cfd2d6;
-  text-decoration: none;
-}
-.footer-menu ul li a:hover{
-  color: #27bcda;
-}
+
 .intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -179,80 +147,7 @@ display: block;
   object-fit: cover;
   margin-top: auto;
 }
-/*
-.logo--1{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.logo--2{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.logo--3{
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.logo--4{
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.logo--5{
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.logo--6{
-  grid-column-start: 6;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.logo--7{
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-.logo--8{
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-.logo--9{
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-.logo--10{
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-.logo--11{
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-.logo--12{
-  grid-column-start: 6;
-  grid-column-end: 7;
-  grid-row-start: 2;
-  grid-row-end: 3;
-}
-*/
+
 footer {
   display: flex;
   align-items: center;
